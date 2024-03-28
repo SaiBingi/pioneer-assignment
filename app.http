@@ -1,0 +1,128 @@
+###
+POST http://localhost:3000/register/
+Content-Type: application/json 
+
+{
+  "name": "Sai Bingi",
+  "username": "sai_bingi",
+  "email": "saibingi@gmail.com",
+  "password": "sai@123",
+  "gender": "male"
+}
+
+###
+POST http://localhost:3000/register/
+Content-Type: application/json 
+
+{
+  "name": "Jane Smith",
+  "username": "jane_smith",
+  "email": "jane.smith@example.com",
+  "password": "jane@123",
+  "gender": "female"
+}
+
+###
+POST http://localhost:3000/register/
+Content-Type: application/json 
+
+{
+  "name": "Jane Smith",
+  "username": "jane_smith",
+  "email": "jane.smith@example.com",
+  "password": "jane@123",
+  "gender": "female"
+}
+
+###
+POST http://localhost:3000/register/
+Content-Type: application/json 
+
+{
+  "name": "Michael Johnson",
+  "username": "michael_johnson",
+  "email": "michael.johnson@example.com",
+  "password": "michael123",
+  "gender": "male"
+}
+
+###
+POST http://localhost:3000/register/
+Content-Type: application/json 
+
+{
+  "name": "Emily Brown",
+  "username": "emily_brown",
+  "email": "emily.brown@example.com",
+  "password": "emily@123",
+  "gender": "female"
+}
+
+
+###
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{
+    "username": "sai_bingi",
+    "password": "sai@123" 
+}
+
+###
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{
+    "username": "michael_johnson",
+    "password": "michael123" 
+}
+
+###
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{
+    "email": "emily.brown@example.com",
+    "password": "emily@123" 
+}
+
+
+
+###
+POST http://localhost:3000/logout
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjA1NDdlODJlMjRkYTViYjZiNWY1MmQiLCJpYXQiOjE3MTE2MjIyNzIsImV4cCI6MTcxNDIxNDI3Mn0.xmepiDJgjomVpZwrB-m6PmcTZ6hrmosePkZECc17tNo
+
+###
+GET http://localhost:3000/data?category=Animals&limit=5
+
+###
+GET http://localhost:3000/data?category=Anime&limit=5
+
+###
+GET http://localhost:3000/data?category=Art%20%26%20Design&limit=5
+
+###
+GET http://localhost:3000/data?category=Cryptocurrency&limit=5
+
+###
+GET http://localhost:3000/api-docs
+
+###
+GET http://localhost:3000/protected
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjA1NDdlODJlMjRkYTViYjZiNWY1MmQiLCJpYXQiOjE3MTE2MjIyNzIsImV4cCI6MTcxNDIxNDI3Mn0.xmepiDJgjomVpZwrB-m6PmcTZ6hrmosePkZECc17tNo
+
+###
+GET http://localhost:3000/protected
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjA1NDg3YTJlMjRkYTViYjZiNWY1MzgiLCJpYXQiOjE3MTE2MjIzNTcsImV4cCI6MTcxNDIxNDM1N30.Sg3irbzTa9r-kwyqd-Gnz5cbTIqNowZSXT5Zldhq9ns
+
+###
+GET http://localhost:3000/protected
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjA1NDg2MTJlMjRkYTViYjZiNWY1MzMiLCJpYXQiOjE3MTE2MjI3MjgsImV4cCI6MTcxNDIxNDcyOH0.EAtjpeqPps8SJNesNpNaAHs0ee8N-Wo0PMGzBb4l99I
+
+###
+GET http://localhost:3000/protected
+
+###
+GET http://localhost:3000/protected
+Authorization: Bearer eyJhbGciOiJIUz1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjA1NDg2MTJlMjRkYTViYjZiNWY1MzMiLCJpYXQiOjE3MTE2MjI3MjgsImV4cCI6MTcxNDIxNDcyOH0.EAtjpeqPps8SJNesNpNaAHs0ee8N-Wo0PMGzBb4l99I

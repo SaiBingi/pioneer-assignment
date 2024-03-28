@@ -1,0 +1,25 @@
+swagger: '2.0'
+info:
+  title: Your API Documentation
+  version: '1.0'
+paths:
+  /data:
+    get:
+      summary: Retrieves data from the API
+      parameters:
+        - name: category
+          in: query
+          description: Filter data by category
+          required: false
+          type: string
+        - name: limit
+          in: query
+          description: Limit the number of results
+          required: false
+          type: integer
+          format: int32
+      responses:
+        200:
+          description: Successful response
+          schema:
+            type: object
